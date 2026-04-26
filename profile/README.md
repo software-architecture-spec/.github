@@ -2,7 +2,7 @@
 
 An open specification for **SAM — Software Architecture Manifest**: a producer-signed, machine-readable declaration of what software was designed to do and the operational envelope it was designed for.
 
-SBOM tells you what's *inside* a software artifact. SLSA tells you *how* it was built. **SAM tells you what the producer designed it *to be*** — tenancy model, scaling axis, privilege posture, network requirements, and ISO/IEC 25010:2023 quality claims, with industry-standard cross-references for auditors.
+SBOM tells you what's *inside* the software. SLSA tells you *how* it was built. **SAM tells you what the producer designed it *to be*** — tenancy model, scaling axis, privilege posture, network requirements, and ISO/IEC 25010:2023 quality claims, with industry-standard cross-references for auditors.
 
 ## Live
 
