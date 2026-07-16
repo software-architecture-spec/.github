@@ -6,16 +6,16 @@ SBOM tells you what's *inside* the software. SLSA tells you *how* it was built. 
 
 > **Working draft — not adoption-ready.** SAM is a v0 working proposal. Breaking changes are still possible; the stable target is v1. Engagement, technical review, and contributions welcome via [issues](https://github.com/software-architecture-spec/sam/issues) and [discussions](https://github.com/software-architecture-spec/sam/discussions).
 
-## Live (v0.1 — first public draft)
+## Live (v0.2 — current)
 
 - [Landing page](https://software-architecture-spec.github.io/sam/) — rendered README
-- [SPECIFICATION v0.1](https://software-architecture-spec.github.io/sam/v0.1/SPECIFICATION.md) — normative reference, §§1–9 (Scope, Terminology, Conformance language, Threat model, Conforming SAM, Versioning, Extensibility, Stability, **SAM Levels**)
-- [JSON Schema v0.1](https://software-architecture-spec.github.io/sam/v0.1/schema.json) — Draft 2020-12
-- [Example: SaaS API](https://software-architecture-spec.github.io/sam/v0.1/examples/saas.manifest.json) · [Example: internal enterprise](https://software-architecture-spec.github.io/sam/v0.1/examples/internal-enterprise.manifest.json)
-- [Conformance test corpus](https://github.com/software-architecture-spec/sam/tree/main/v0.1/conformance) — positive and negative cases per §5.1
+- [SPECIFICATION v0.2](https://software-architecture-spec.github.io/sam/v0.2/SPECIFICATION.md) — normative reference, §§1–10 (Scope, Terminology, Conformance language, Threat model, Conforming SAM, Versioning, Extensibility, Stability, **SAM Levels**, **Quality characteristic definitions** — SAM's own plain-English definitions for each ISO/IEC 25010:2023 characteristic, anchored to the ISO names and framed through SAM's declaration model; SAM's original wording, CC-BY-4.0, informative, not a reproduction of the ISO text)
+- [JSON Schema v0.2](https://software-architecture-spec.github.io/sam/v0.2/schema.json) — Draft 2020-12
+- [Example: SaaS API](https://software-architecture-spec.github.io/sam/v0.2/examples/saas.manifest.json) · [Example: internal enterprise](https://software-architecture-spec.github.io/sam/v0.2/examples/internal-enterprise.manifest.json) · [Example: Caddy (illustrative OSS)](https://software-architecture-spec.github.io/sam/v0.2/examples/caddy.manifest.json)
+- [Conformance test corpus](https://github.com/software-architecture-spec/sam/tree/main/v0.2/conformance) — positive and negative cases per §5.1
 - [Registries](https://github.com/software-architecture-spec/sam/tree/main/registry) — `standards.json`, `tensions.json` (advisory)
 
-Future versions land alongside (`v0.2/`, `v0.3/`, …) at frozen URIs per §6.3.
+v0.1 is frozen and remains valid at its own URIs per §6.3. Future versions land alongside (`v0.3/`, `v0.4/`, …) at frozen URIs.
 
 ## Get involved
 
@@ -25,7 +25,7 @@ Future versions land alongside (`v0.2/`, `v0.3/`, …) at frozen URIs per §6.3.
 
 ## Status
 
-**v0.1 — working draft.** Breaking changes still possible while `MAJOR` is `0`. Stable target is v1.
+**v0.2 — current working draft.** Breaking changes still possible while `MAJOR` is `0`. v0.2 is additive over v0.1; v0.1 manifests remain conforming under their own URIs. Stable target is v1.
 
 ## License
 
